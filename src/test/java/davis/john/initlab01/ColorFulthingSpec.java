@@ -11,7 +11,11 @@ public class ColorFulthingSpec {
     @Test
     public void getColorTest(){
 
-        ColorfulThing color = new ColorfulThing("green");
+        ColorfulThing y = new ColorfulThing("red");
+
+
+
+        assertEquals("Test to see if color is correct",y);
     }
 
 }

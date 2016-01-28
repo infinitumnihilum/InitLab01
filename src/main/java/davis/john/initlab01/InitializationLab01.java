@@ -15,13 +15,13 @@ public class InitializationLab01 {
         BoringThing b5 = new BoringThing();
 
 
-        ColorfulThing c1 = new ColorfulThing("Red");
-        ColorfulThing c2 = new ColorfulThing("Blue");
-        ColorfulThing c3 = new ColorfulThing("Green");
-        ColorfulThing c4 = new ColorfulThing("Orange");
-        ColorfulThing c5 = new ColorfulThing("Black");
+        ColorfulThing c1 = new ColorfulThing("Red \n");
+        ColorfulThing c2 = new ColorfulThing("Blue\n");
+        ColorfulThing c3 = new ColorfulThing("Green\n");
+        ColorfulThing c4 = new ColorfulThing("Orange\n");
+        ColorfulThing c5 = new ColorfulThing("Black\n");
 
-
+        System.out.println(c1.getColor() + c2.getColor() + c3.getColor() + c4.getColor() + c5.getColor() );
 
 
     }
